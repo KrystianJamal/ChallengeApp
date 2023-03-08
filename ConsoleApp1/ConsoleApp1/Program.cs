@@ -1,27 +1,27 @@
 ﻿// zadanie domowe dzien 4
 
-string imię = "Krystian";
-bool facet = false;
-int wiek = 28;
+string name = "Kaśka";
+bool women = false;
+int Age = 33;
 
-if (facet == true)
+if (women == true) //kobieta
 {
-    if (imię == "Krystian" && wiek == 28)
+    if (name == "Kaśka" && Age == 33)
     {
-        Console.WriteLine("Krystian, lat 28");
+        Console.WriteLine("Kinga, lat 33");
     }
-    else if (imię != "Krystian" && wiek < 28)
+    else if (name != "Kinga" && Age < 30)
     {
-        Console.WriteLine("Facet poniżej 30 lat");
+        Console.WriteLine("Kobieta poniżej 30 lat");
     }
 }
 else // mężczyzna
 {
-    if (wiek < 19)
+    if (Age < 18)
     {
         Console.WriteLine("Niepełnoletni mężczyzna");
     }
-    else if (imię == "Kaśka")
+    else if (name == "Kaśka")
     {
         Console.WriteLine("Czy mężczyzna może miec na imię Kaśka?");
     }
